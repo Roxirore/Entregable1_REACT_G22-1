@@ -7,7 +7,7 @@ const TextBox = ({quoteRandom}) => {
             <i className='bx bxs-quote-left box__header__icon'></i>
             <p className='box__header__quote'>{quoteRandom.quote}</p>
         </div>
-        <h1 className='box__header__author'>{quoteRandom.author}</h1>
+        <h1 className='box__header__author'><i>{quoteRandom.author}</i></h1>
     </div>
 
     
